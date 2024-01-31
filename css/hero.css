@@ -1,0 +1,135 @@
+main {
+    padding-top: var(--nav-high);
+}
+
+#hero {
+    /* height: calc(100vh - var(--nav-high)); */
+    background: url("../images/hero/hero-bg.png") no-repeat center;
+    background-size: cover;
+}
+
+/* #hero .container {  
+    position: relative;
+} */
+
+.hero__content {
+    flex-direction: column;
+    align-items: start;
+    gap: 35px;
+    padding-top: 104px;
+}
+
+.hero__title {
+    max-width: 509px;
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+
+.hero__text {
+    max-width: 376px;
+    color: var(--second-text-color);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+.hero__btns {
+    gap: 10px;
+    /* padding-bottom: 250px; */
+}
+
+.hero__btn {
+    border-radius: 37px;
+    border: 1px solid var(--secondary-color);
+    transition: 0.4s;
+}
+
+
+.hero__btn:hover {
+    color: var(--light-text-color);
+    background-color: var(--primary-color);
+    border-color: transparent;
+}
+
+
+.hero__cards {
+    position: relative;
+    bottom: -105px;
+    margin-bottom: 185px;
+}
+
+
+
+
+.hero__card {
+    max-width: calc(33.3% - 20px);
+    padding: 35px 40px;
+}
+
+.hero__card:hover .card__title {
+    color: var(--light-text-color);
+}
+
+.hero__card:hover .text {
+    color: var(--light-text-color);
+}
+
+.hero__card:hover {
+    background-color: var(--secondary-color);
+}
+
+.hero__card:hover .card__img path {
+    fill: white;
+}
+
+.card__title {
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+@media (max-width: 990px) {
+    .hero__cards {
+        justify-content: center;
+    }
+
+    .hero__card {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 700px) {
+    .hero__card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 416px) {
+    .hero__title {
+        font-size: 35px;
+        line-height: 57px;
+        text-align: center;
+    }
+
+    .hero__text {
+        text-align: center;
+    }
+
+    .hero__btns {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    #hero {
+        padding-bottom: 200px;
+    }
+}

@@ -1,0 +1,40 @@
+.footer__top{
+    padding: 50px 0;
+    background: #16697a;
+}
+
+.footer__rows {
+    align-items: flex-start;
+}
+
+.footer__row h5 {
+    color: var(--light-text-color);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    padding-bottom: 20px;
+}
+
+.row__list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.row__item {
+    color: var(--light-text-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.footer__bottom {
+    padding: 25px 0;
+}
+
+.medias {
+    gap: 20px;
+}

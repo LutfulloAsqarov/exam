@@ -1,0 +1,108 @@
+#contact {
+    padding: 80px 0;
+}
+
+.contact__title {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.contact__cards {
+    padding-bottom: 128px;
+}
+
+.contact__card {
+    flex-direction: column;
+    gap: 15px;
+    padding: 50px 40px;
+    align-items: center;
+    width: calc(33%-20px);
+    text-align: center;
+}
+
+.gmail {
+    flex-direction: column;
+}
+
+.contact__card h5 {
+    color: var(--text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.contact__card button {
+    color: var(--primary-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid var(--primary-color, #ffa62b);
+}
+
+.contact__card:hover {
+    background-color: #252b42;
+}
+
+.contact__card:hover a {
+    color: #fff;
+}
+
+.contact__card:hover svg path {
+    fill: #fff;
+}
+
+.contact__card:hover button {
+    color: #fff;
+    border-color: #fff;
+}
+.contact__card:hover h5 {
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.form input,
+textarea {
+    color: var(--Gray-3);
+    font-family: Montserrat;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+    outline: none;
+    border: 1px solid #e0e0e0;
+}
+
+.form button {
+    padding: 15px 40px;
+    color: var(--light-text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    max-width: 163px;
+    margin: 0 auto;
+}
+
+@media(max-width:1200px) {
+    
+}

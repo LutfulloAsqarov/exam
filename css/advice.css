@@ -1,0 +1,51 @@
+#advice {
+    padding: 80px 0;
+}
+
+.advice__content {
+    flex-direction: column;
+    gap: 10px;
+    padding: 45px 0;
+}
+
+.advice__content .text {
+    max-width: 511px;
+    text-align: center;
+}
+
+.advice__card {
+    max-width: calc(25% - 22.5px);
+}
+
+.advice__card img {
+    width: 100%;
+}
+
+.card__desc {
+    padding: 30px;
+}
+
+.advice__card-title {
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+@media (max-width: 1000px) {
+    .advice__cards {
+        flex-wrap: wrap;
+    }
+
+    .advice__card {
+       max-width: 45%;
+    }
+}
+@media (max-width: 550px) {
+
+    .advice__card {
+       max-width: 100%;
+    }
+}

@@ -1,0 +1,61 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 1050px;
+    }
+}
+
+.df {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: var(--text-color, #252b42);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.text {
+    color: var(--second-text-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.btn {
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: Montserrat;
+    padding: 10px 36px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    background: transparent;
+}
+
+
+.cards {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #fff;
+    transition: 0.4s;
+}
