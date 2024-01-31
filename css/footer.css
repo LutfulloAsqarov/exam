@@ -5,6 +5,7 @@
 
 .footer__rows {
     align-items: flex-start;
+    gap: 30px;
 }
 
 .footer__row h5 {
@@ -37,4 +38,16 @@
 
 .medias {
     gap: 20px;
+}
+
+@media (max-width:1000px) {
+    .footer__rows {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:630px) {
+    .footer__container {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 }

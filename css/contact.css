@@ -103,6 +103,8 @@ textarea {
     margin: 0 auto;
 }
 
-@media(max-width:1200px) {
-    
+@media(max-width:1210px) {
+    .contact__cards {
+        justify-content: center;
+    }
 }
